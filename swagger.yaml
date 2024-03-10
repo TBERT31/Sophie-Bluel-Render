@@ -4,7 +4,7 @@ info:
   description: API Backend for Architect Website
   version: 1.0.0
 servers:
-  - url: https://next.thomas-berteau.com/api/
+  - url: https://sophie-bluel-render.onrender.com//api/
 paths:
   /users/login:
     post:
@@ -83,7 +83,7 @@ paths:
                       example: "Abajour Tahina"
                     imageUrl:
                       type: string
-                      example: "https://next.thomas-berteau.com/images/abajour-tahina1651286843956.png"
+                      example: "https://sophie-bluel-render.onrender.com/images/abajour-tahina1651286843956.png"
                     categoryId:
                       type: integer
                       format: int64
